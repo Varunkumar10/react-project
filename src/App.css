@@ -1,0 +1,48 @@
+:local(.column) {
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px;
+}
+:local(.row:after) {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+:local(*){
+	box-sizing: border-box;
+}
+
+:local(.head) {
+	font-family: arial;
+	background-color: cadetblue;
+	/*height: 80px;*/
+}
+:local(.headOne) {
+	margin-left: 10px;
+}
+:local(.headOne h2) {
+	margin: 0;
+}
+
+
+:local(.foot) {
+  color: #FFF;
+  background-color: cadetblue;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: right;
+  padding: 8px 12px 0 0;
+}
+
+
+:local(.row) {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	font-size: 20px;
+}
