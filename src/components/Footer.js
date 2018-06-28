@@ -5,7 +5,7 @@ import { Header } from "./Header";
 export class Footer extends React.Component{
 	render(){
 		return(
-			<div className={styles.foot}>
+			<div className="foot">
 			</div>
 		)
 	}
